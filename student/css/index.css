@@ -1,0 +1,128 @@
+body {
+    background-color: #2a9d8f;
+    font-family: "Raleway", sans-serif;
+    color:  #264653;
+
+}
+h1{
+    font-size: large;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+h4{
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #ffd166;
+}
+
+a:link{
+    color: darkmagenta;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+#banner{
+    text-align: center;
+    font-size:134px;
+    margin: 2px;
+    color: #ffd166;
+    background-color: #264653;
+    height: 240px;
+}
+#menuBar{
+    font-size: 20px;
+    float: right;
+
+}
+
+#menuBar .menuButton{
+    width: auto;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 25px;
+    font-size: larger;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    cursor:pointer;
+}
+#menuBar .menuButton:hover {
+    background:darkorange;
+}
+
+#car{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.row1{
+    color: #581845;
+}
+.row2{
+    color: #900C3F;
+}
+.row3{
+    color: #FFC300;
+}
+.row4{
+    color: #C70039;
+}
+.row5{
+    color: darkmagenta;
+}
+.row6{
+    color: darkgreen;
+}
+.row7{
+    color: #05386B;
+}
+.row8{
+    color: darkred;
+}
+.srow{
+    color: black;
+}
+
+#table{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: white;
+}
+#th, #td{
+    border: 3px dotted #FF5733;
+    background: #264653;
+}
+input[type=text], input[type=number], input[type= color], input[type= date]{
+    width: 10%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+    font-size: large;
+}
+
+input[type=submit],#list {
+    width: auto;
+    height: auto;
+    background: rgba(34, 139, 34, 0.3);
+    margin: 25px;
+    font-size: larger;
+    border: 3px solid rgb(34, 139, 34);
+    text-align: center;
+    cursor: pointer;
+    float: right;
+}

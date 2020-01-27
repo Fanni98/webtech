@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="application/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="application/javascript" src="js/addcar.js"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<div id="header"></div>
+
+<div class="container">
+    <form action="/addCar" method="post">
+        <div class="srow">
+            <label>Manufacturer:</label>
+            <div class="select">
+            </div>
+        </div>
+        <div class="row2">
+            <label>Model:</label>
+            <input type="text" name="name" required="required"/>
+        </div>
+        <div class="row3">
+            <label>Consumption:</label>
+            <input type="text" name="consumption" value="0 l/100km "required="required"/>
+        </div>
+        <div class="row4">
+            <label>Color:</label>
+            <input type="color" name="color" value="#ffd166"/>
+        </div>
+        <div class="row5">
+            <label>Production year:</label>
+            <input type="number" name="year" maxlength="4" value="1995" required="required"/>
+        </div>
+        <div class="row6">
+            <label>Availability:</label>
+            <input type="number" name="available" required="required"/>
+        </div>
+        <div class="row7">
+            <label>Horsepower</label>
+            <input type="number" name="horsepower" required="required"/>
+        </div>
+        <div class="row8">
+            <input type="submit" value="Add">
+        </div>
+    </form>
+</div>
+</html>
